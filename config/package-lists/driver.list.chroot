@@ -1,0 +1,71 @@
+# X11 Core (minimal)
+xorg
+xinit
+xserver-xorg
+x11-xserver-utils
+
+# Essential Input Drivers Only
+xserver-xorg-input-kbd
+xserver-xorg-input-mouse
+xserver-xorg-input-synaptics
+
+# Essential Video Drivers
+xserver-xorg-video-intel
+xserver-xorg-video-nouveau
+firmware-amd-graphics
+
+# Hardware Acceleration
+va-driver-all
+vdpau-driver-all
+libegl-mesa0
+vulkan-tools
+
+# Mesa/Graphics (minimal)
+libglx-mesa0
+libgl1-mesa-dri
+mesa-vulkan-drivers
+
+# Essential Fonts Only
+xfonts-base
+xfonts-scalable
+
+# CPU Microcode (CRITICAL - security updates)
+amd64-microcode
+intel-microcode
+
+# Essential Filesystem Tools
+btrfs-progs
+dosfstools
+e2fsprogs
+exfat-fuse
+exfatprogs
+mtools
+
+# Modern Network Firmware (common hardware only)
+firmware-realtek
+firmware-atheros
+firmware-brcm80211
+firmware-iwlwifi
+firmware-linux
+firmware-linux-nonfree
+firmware-misc-nonfree
+
+# Additional Firmware & Sound
+bluez-firmware
+firmware-sof-signed
+firmware-intel-sound
+firmware-libertas
+firmware-bnx2
+firmware-bnx2x
+
+# Build Tools
+build-essential
+
+# Hardware Info
+lshw-gtk
+memtest86+
+
+# Performance & Gaming
+gamemode
+irqbalance
+
