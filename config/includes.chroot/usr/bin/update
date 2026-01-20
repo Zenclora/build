@@ -13,13 +13,7 @@ sudo apt-get update -y
 echo "2. Upgrading packages..."
 sudo apt-get upgrade -y
 
-echo "3. Removing unnecessary packages..."
-sudo apt-get autoremove -y
-
-echo "4. Cleaning up cache..."
-sudo apt-get autoclean -y
-
-echo "5. Performing distribution upgrade..."
+echo "3. Performing distribution upgrade..."
 sudo apt-get dist-upgrade -y
 
 echo -e "${GREEN}Summary of upgrades:${NC}"
